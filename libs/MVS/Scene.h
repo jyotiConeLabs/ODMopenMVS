@@ -51,15 +51,12 @@ struct MVS_API DenseDepthMapData;
 
 class MVS_API Scene
 {
-
 private:
-
 	enum DesiredDevice {
 		AllGPUs = -3,
 		CPU = -2,
 		BestGPU = -1
 	};
-
 	bool RunSingleThreaded(DenseDepthMapData& data, int gpuId);
 	bool RunMultiGPU(DenseDepthMapData& data);
 	bool RunMultiThreaded(DenseDepthMapData& data, int gpuId);
