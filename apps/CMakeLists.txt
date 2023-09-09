@@ -1,5 +1,5 @@
 # Add applications
-#ADD_SUBDIRECTORY(InterfaceCOLMAP)
+ADD_SUBDIRECTORY(InterfaceCOLMAP)
 #ADD_SUBDIRECTORY(InterfaceMetashape)
 #ADD_SUBDIRECTORY(InterfaceMVSNet)
 #ADD_SUBDIRECTORY(InterfacePolycam)
